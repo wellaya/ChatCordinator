@@ -1,5 +1,5 @@
 ﻿using Cordinator.Application.Chat.Commands.AssignChatAgent;
-using Cordinator.Domain.Entities;
+using Domain.Entities;
 using MassTransit;
 using MediatR;
 using System;

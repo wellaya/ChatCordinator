@@ -1,5 +1,5 @@
-﻿using Cordinator.Domain.Entities;
-using Cordinator.Domain.Helpers;
+﻿using Cordinator.Application.Helpers;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

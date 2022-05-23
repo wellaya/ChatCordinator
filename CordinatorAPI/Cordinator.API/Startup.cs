@@ -46,7 +46,7 @@ namespace Cordinator.API
                         ep.PrefetchCount = 16;
                         ep.UseMessageRetry(r => r.Interval(2, 100));
                         ep.ConfigureConsumer<ChatConsumer>(provider);
-                        ep.Bind("exchange_name");
+                        //ep.Bind("exchange_name");
                     });
 
                 }));

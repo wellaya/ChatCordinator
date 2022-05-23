@@ -1,5 +1,5 @@
 ﻿using Chat.Application.Common.Interfaces;
-using Chat.Domain.Entities;
+using Domain.Entities;
 using MassTransit;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -22,7 +22,7 @@ namespace Chat.Infrastructure.Services
         }
         public async Task PublishChatInitiation(string connectionId)
         {
-            Uri uri = new Uri($"{_configuration["RabbitMQHost:Url"]}/vhost/exchange_name?bind=true&queue={_configuration["RabbitMQHost:QueueName"]}");
+            Uri uri = new Uri($"{_configuration["RabbitMQHost:Url"]}/{_configuration["RabbitMQHost:QueueName"]}");
             var endPoint = await _bus.GetSendEndpoint(uri);
             await endPoint.Send(new Message { ConnectionId = connectionId, SendTime = DateTime.UtcNow, Text = "SessionInitiate" });
         }

@@ -1,4 +1,4 @@
-﻿using Cordinator.Domain.Entities;
+﻿using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

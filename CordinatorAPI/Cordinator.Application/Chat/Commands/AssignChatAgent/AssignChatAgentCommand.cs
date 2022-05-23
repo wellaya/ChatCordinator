@@ -1,6 +1,6 @@
 ﻿using Cordinator.Application.Common.Interfaces;
-using Cordinator.Domain.Entities;
-using Cordinator.Domain.Helpers;
+using Cordinator.Application.Helpers;
+using Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;

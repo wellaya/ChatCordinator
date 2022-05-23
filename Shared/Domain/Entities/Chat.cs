@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chat.Domain.Entities
+namespace Domain.Entities
 {
-    public class Message
+    public class Chat
     {
         public string ConnectionId { get; set; }
-        public DateTime SendTime { get; set; }
-        public string Text { get; set; }
     }
 }

@@ -8,6 +8,10 @@ namespace Domain.Entities
 {
     public class Agent
     {
+        public Agent()
+        {
+            AgentChats = new HashSet<AgentChat>();
+        }
         public int Id { get; set; }
         public double Seniority { get; set; }
         public int TeamId { get; set; }        

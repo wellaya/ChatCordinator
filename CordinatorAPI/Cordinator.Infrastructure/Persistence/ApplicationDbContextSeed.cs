@@ -44,14 +44,14 @@ namespace Cordinator.Infrastructure.Persistence
                 },
                 new WorkShift
                 {
-                    Id = 1,
+                    Id = 2,
                     Name = "Day1",
                     StartTimeHour = 14,
                     EndTimeHour = 22
                 },
                 new WorkShift
                 {
-                    Id = 1,
+                    Id = 3,
                     Name = "Night",
                     StartTimeHour = 22,
                     EndTimeHour = 6

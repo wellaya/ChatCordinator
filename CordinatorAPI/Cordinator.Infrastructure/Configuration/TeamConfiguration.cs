@@ -18,6 +18,8 @@ namespace Cordinator.Infrastructure.Configuration
                 .WithOne(x => x.Team)
                 .HasForeignKey(x => x.TeamId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasOne(x => x.WorkShift);
         }
     }
 }

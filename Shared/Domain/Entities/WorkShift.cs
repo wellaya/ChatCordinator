@@ -12,5 +12,6 @@ namespace Domain.Entities
         public string Name { get; set; }
         public int StartTimeHour { get; set; }
         public int EndTimeHour { get; set; }
+        public virtual Team Team { get; set; }
     }
 }

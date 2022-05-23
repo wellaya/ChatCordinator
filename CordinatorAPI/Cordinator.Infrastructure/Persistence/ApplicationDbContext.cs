@@ -15,6 +15,7 @@ namespace Cordinator.Infrastructure.Persistence
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
+            ApplicationDbContextSeed.SeedDataAsync(this).ConfigureAwait(true);
         }
         public DbSet<Team> Teams { get; set; }
         public DbSet<Agent> Agents { get; set; }

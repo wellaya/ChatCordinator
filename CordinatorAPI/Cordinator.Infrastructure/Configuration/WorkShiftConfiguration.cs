@@ -14,6 +14,7 @@ namespace Cordinator.Infrastructure.Configuration
         public void Configure(EntityTypeBuilder<WorkShift> builder)
         {
             builder.HasKey(x => x.Id);
+            builder.HasOne(x => x.Team);
         }
     }
 }

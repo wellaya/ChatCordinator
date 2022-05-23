@@ -11,15 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.API", "ChatAPI\Chat.AP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cordinator.API", "CordinatorAPI\Cordinator.API\Cordinator.API.csproj", "{EB6CBF4A-7236-4B89-B0AD-7EF4061858E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Domain", "ChatAPI\Chat.Domain\Chat.Domain.csproj", "{2683003C-BFAA-4FBA-8C87-09175C2ADE87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.Domain", "ChatAPI\Chat.Domain\Chat.Domain.csproj", "{2683003C-BFAA-4FBA-8C87-09175C2ADE87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Application", "ChatAPI\Chat.Application\Chat.Application.csproj", "{D7520B99-9829-46B0-9357-CECA2B032BEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.Application", "ChatAPI\Chat.Application\Chat.Application.csproj", "{D7520B99-9829-46B0-9357-CECA2B032BEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cordinator.Domain", "CordinatorAPI\Cordinator.Domain\Cordinator.Domain.csproj", "{309609F9-7E11-497D-A41F-2186D3BA032B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cordinator.Domain", "CordinatorAPI\Cordinator.Domain\Cordinator.Domain.csproj", "{309609F9-7E11-497D-A41F-2186D3BA032B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cordinator.Application", "CordinatorAPI\Cordinator.Application\Cordinator.Application.csproj", "{70198487-80D6-4A40-874C-AEF6293B766C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cordinator.Application", "CordinatorAPI\Cordinator.Application\Cordinator.Application.csproj", "{70198487-80D6-4A40-874C-AEF6293B766C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cordinator.Infrastructure", "CordinatorAPI\Cordinator.Infrastructure\Cordinator.Infrastructure.csproj", "{26F8564E-69E0-4FC0-9ED3-726192B1361E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cordinator.Infrastructure", "CordinatorAPI\Cordinator.Infrastructure\Cordinator.Infrastructure.csproj", "{26F8564E-69E0-4FC0-9ED3-726192B1361E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.Infrastructure", "ChatAPI\Chat.Infrastructure\Chat.Infrastructure.csproj", "{4ED259D0-D8F4-4222-BFFC-A440C1CAD410}"
 EndProject

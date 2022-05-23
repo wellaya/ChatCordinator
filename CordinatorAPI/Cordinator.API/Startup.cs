@@ -1,4 +1,6 @@
 using Cordinator.API.Consumers;
+using Cordinator.Application;
+using Cordinator.Infrastructure;
 using MassTransit;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -49,6 +51,8 @@ namespace Cordinator.API
 
                 }));
             });
+            services.AddApplication();
+            services.AddInfrastructure(Configuration);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

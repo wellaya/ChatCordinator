@@ -1,4 +1,5 @@
-﻿using Cordinator.Domain.Entities;
+﻿using Cordinator.Application.Chat.Commands.AssignChatAgent;
+using Cordinator.Domain.Entities;
 using MassTransit;
 using MediatR;
 using System;
@@ -17,10 +18,7 @@ namespace Cordinator.API.Consumers
         }
         public async Task Consume(ConsumeContext<Message> context)
         {
-            var data = context.Message;
-            //Validate the Ticket Data
-            //Store to Database
-            //Notify the user via Email / SMS
+            await _mediator.Send(new AssignChatAgentCommand { Message = context.Message });            
         }
     }
 }

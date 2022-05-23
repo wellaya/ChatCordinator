@@ -13,7 +13,7 @@ namespace Cordinator.Infrastructure.Services
         public async Task AgentConnectChat(string connectionId, int agentId)
         {
             var connection = new HubConnectionBuilder()
-                .WithUrl("https://localhost:5001/chatHub")
+                .WithUrl("https://localhost:44375/chat")
                 .Build();
             await connection.StartAsync();
 

@@ -1,6 +1,10 @@
 # ChatCordinator
 Steps to run the project
 
+Prerequisites 
+Visula Studio 2019 installed in the machine
+RabbitMQ server installed in the machine
+
 Open project in Visual studio 2019
 
 Set Chat.API and Cordinator.API as startup projects in the solutions
